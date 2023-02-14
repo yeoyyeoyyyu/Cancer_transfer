@@ -8,5 +8,12 @@
 유방암 병리 슬라이드 영상과 임상 항목을 조합하여 유방암의 임파선 전이 여부 이진 분류
 
 
-### 출처
+## 모델 구조
+
+
+## 
+
+
+
+#### 출처
 https://dacon.io/competitions/official/236011/overview/description
