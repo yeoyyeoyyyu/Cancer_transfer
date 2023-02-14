@@ -1,1 +1,1 @@
-# Cancer_transfer
+# 유방암의 임파선 전이 예측 AI 경진대회
