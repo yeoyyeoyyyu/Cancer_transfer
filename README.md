@@ -10,12 +10,11 @@
 
 ## 데이터
 ![image](https://user-images.githubusercontent.com/107402707/219846965-05a283c3-b73a-44f5-b865-962f503388f7.png)
-
-
 <br>
 
-
 ## 모델 구조
+![model](https://user-images.githubusercontent.com/107402707/219847219-db3deca1-2412-402c-9198-336a2734341e.png)
+
 <br>
 
 ## 결과
