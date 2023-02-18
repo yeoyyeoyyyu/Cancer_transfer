@@ -9,6 +9,11 @@
 <br>
 
 ## 데이터
+|항목|label|설명|
+|ID| |환자번호|
+|나이| |진단시 나이|
+|수술연월일|연-월-일||
+|진단명|1: ductal<br>2: lobular<br>3. mucinous<br>4. other|histologic type|
 <br>
 
 
