@@ -25,7 +25,41 @@
 |HG_score_3|1: score 1<br>2: score 2<br>3: score 3<br><br>4: not graded|(Mitotic Rate)<br>Score 1 (≤3 mitoses per mm2)<br>Score 2 (4-7 mitoses per mm2)<br>Score 3 (≥8 mitoses per mm2)<br>4: Only microinvasion present (not graded)|
 |DCIS_or_LCIS_여부|0: no DCIS/LCIS<br>1: DCIS/LCIS present, EIC(-)<br>2: DCIS/LCIS present, EIC(+)|제자리암종 (DCIS)의 유무 |
 |DCIS_or_LCIS_type|1: non-comedo<br>2: comedo|제자리 암종내 괴사 유무 |
-|T_category|0: Tis<br>1: T1<br>2: T2<br>3: T3<br>4: T4|
+|T_category|0: Tis<br>1: T1<br>2: T2<br>3: T3<br>4: T4|pTis (DCIS): Ductal carcinoma in situ<br>pT1: Tumor ≤20 mm in greatest dimension<br>pT1mi: Tumor ≤1 mm in greatest dimension<br>pT1a: Tumor >1 mm but ≤5 mm in greatest dimension (round any measurement >1.0−1.9 mm to 2 mm)<br>pT1b: Tumor >5 mm but ≤10 mm in greatest dimension<br>pT1c: Tumor >10 mm but ≤20 mm in greatest dimension<br>pT2: Tumor >20 mm but ≤50 mm in greatest dimension<br>pT3: Tumor >50 mm in greatest dimension<br>pT4: Tumor of any size with direct extension to the chest wall and/or to the skin (ulceration or skin nodules) <br>pT4a: Extension to the chest wall; invasion or adherence to pectoralis muscle in the absence of invasion of chest wall structures does not qualify as T4<br>pT4b: Ulceration and/or ipsilateral macroscopic satellite nodules and/or edema (including peau d’orange) of the skin that does not meet the criteria for inflammatory ca<br>pT4c: Both T4a and T4b are present<br>pT4d: Inflammatory carcinoma|
+
+ER	"0: -
+1: +"	"Negative: <1% immunoreactive tumor cells present
+Positive: Immunoreactive tumor cells present (≥1%)  여성호르몬중 에스트로겐 수용체의 발현 여부입니다. "
+ER_Allred_score		정수로 기입 (0 ~ 8) : AS = PS + IS 
+PR	"0: -
+1: +"	"Negative: <1% immunoreactive tumor cells present
+Positive: Immunoreactive tumor cells present (≥1%)  여성호르몬중 프로게스테론 수용체의 발현 여부입니다. "
+PR_Allred_score		정수로 기입 (0 ~ 8) : AS = PS + IS 
+KI-67_LI_percent		정수로 0~100 범위로 기입. 세포증식의 수치를 표시한 항목입니다. 
+HER2	"0: -
+1: +"	참고: IHC 와 SISH 까지 모두 고려한 결과로 기록, 세포성장이자 수용체의 발현여부를 표시 
+HER2_IHC	"0: Negative (0)
+1: Negative (1+)
+2: Equivocal (2+)
+3: Positive (3+)"	
+HER2_SISH	"0: not amplified (negative)
+1: amplified (positive)"	"[Dual Probe ISH Group Definitions]
+- Group 1 = HER2/CEP17 ratio ≥2.0; ≥4.0 HER2 signals/cell
+- Group 2 = HER2/CEP17 ratio ≥2.0; <4.0 HER2 signals/cell
+- Group 3 = HER2/CEP17 ratio <2.0; ≥6.0 HER2 signals/cell
+- Group 4 = HER2/CEP17 ratio <2.0; ≥4.0 and <6.0 HER2 signals/cell
+- Group 5 = HER2/CEP17 ratio <2.0; <4.0 HER2 signals/cell
+
+[Results]
+- Amplified (Positive) (in IHC 2+): Group 3 and Group 1
+- Not amplified (Negative) (in IHC 2+): Group 2, Group 4 and Group 5"
+HER2_SISH_ratio		소수점 첫째자리까지 숫자로 기입
+BRCA_mutation	"0: No BRCA1, BRCA2 mutation 
+1: BRCA1 mutation 
+2: BRCA2 mutation "	검사 시행 안한 경우 빈칸으로, 시행했으나 mutation (의미있는mutation만) 없는경우는 0, 유방암 관련 유전자변이 여부
+N_category	"0: 임파선(림프절) 전이 X
+1: 임파선(림프절) 전이 O"	![image](https://user-images.githubusercontent.com/107402707/219846932-62e6b332-5c2c-4d8c-b88f-fb14f2c93017.png)
+
 <br>
 
 
