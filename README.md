@@ -16,6 +16,9 @@
 ![model](https://user-images.githubusercontent.com/107402707/219847219-db3deca1-2412-402c-9198-336a2734341e.png)
 
 <br>
+## 평가지표
+암 전이가 있는데 없다고 하면 안되기 때문에 재현율 확인
+$recall = TP / (TP + FN) $
 
 ## 결과
 <br>
