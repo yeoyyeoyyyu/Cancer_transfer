@@ -13,7 +13,7 @@
 <br>
 
 ## 모델 구조
-![model structure](https://user-images.githubusercontent.com/107402707/223695683-486a202f-e013-474e-81c5-4f4fa10f5bc5.png)
+![model structure](https://user-images.githubusercontent.com/107402707/223696234-55cd1f1a-368e-4a76-af04-15fb20cf7baa.png)
 
 <br>
 ## 평가지표
