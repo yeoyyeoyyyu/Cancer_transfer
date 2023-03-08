@@ -14,10 +14,13 @@
 
 
 ## 모델 구조
+1-1.이미지 데이터: ResNet50 모델을 사용하여 피쳐 추출 + fully connected layer
+1-2.임상 데이터: 연속형 데이터와 범주형 데이터 각각 인코딩 후 fully connected layer
+2.두 임베딩 벡터 concatenate
+4.output: 암 전이 여부
 ![model structure](https://user-images.githubusercontent.com/107402707/223696602-35dfecfc-4331-499d-82c5-5207097fc4ac.png)
-
-
 <br>
+
 ## 평가지표
 암 전이가 있는데 없다고 하면 안되기 때문에 재현율 확인<br>
 recall = TP / (TP + FN)
