@@ -10,10 +10,11 @@
 
 ## 데이터
 ![image](https://user-images.githubusercontent.com/107402707/219846965-05a283c3-b73a-44f5-b865-962f503388f7.png)
+![model structure](https://user-images.githubusercontent.com/107402707/223696393-ff978015-b19f-49c5-8bff-519d5fb8e70d.png)
 <br>
 
+
 ## 모델 구조
-![model structure](https://user-images.githubusercontent.com/107402707/223696234-55cd1f1a-368e-4a76-af04-15fb20cf7baa.png)
 
 <br>
 ## 평가지표
